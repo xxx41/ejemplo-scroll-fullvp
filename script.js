@@ -1,9 +1,9 @@
-//img elements, nchilds, child
+//img elements (cont), nchilds, child
 var cont = document.getElementsByClassName('img');
 var nChilds = cont[0].parentElement.childElementCount;
 var child = 0;
 
-//flag to wait for scroll
+//flag to wait for next scroll
 var stopBool = false;
 
 cont[0].style.top = 0;
